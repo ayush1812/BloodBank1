@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="listStateName">#f8ec1a07</color>
+    <color name="listStateNameBackground">#27bc29</color>
+    <color name="tagsABckground">#ffe013</color>
+</resources>

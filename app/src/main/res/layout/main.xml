@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aayush.bloodbank.MainActivity"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/inputSearch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:hint="Search products.."
+            android:inputType="textVisiblePassword">
+
+        </EditText>
+
+        <ImageView
+            android:id="@+id/crossImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/nexusmenux"
+            android:layout_alignBottom="@+id/inputSearch"
+            android:layout_alignParentEnd="true" />
+
+
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fastScrollEnabled="true"
+        android:padding="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:smoothScrollbar="true"
+        app:paddingEnd="10dp">
+
+    </ListView>
+</LinearLayout>
